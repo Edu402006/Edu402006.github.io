@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href="css/estilo.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYSL</title>
+</head>
+<body>
+  <header>
+    <div class="contenedor"><!--Contiene la Imagen y texto del Header-->
+        <img src="img/design1_image1.jpg" alt="imagen1" class="contenedor__img">
+        <div class="contenedor__texto-encima"><!--Contiene el texto sobre la imagen-->
+          <h2>Northside Young Soccer League</h2>
+        </div>
+    </div>  
+</header>
+<section class="nav-bar"><!--Lleva un titulo y el logo de la marca-->
+  <img src="img/nysl_logo.png" class="nav-bar__img">
+  <h1>Upcoming Events </h1>
+</section>
+<section>
+  <nav class="link"><!--Lleva los link que redireccionan de una pagina a otra-->
+    <ul class="link__lista">
+        <li><a href="index.html">Inicio</a></li><br>
+        <li><a href="Acerca.html">Acerca de NYSL</a></li><br>
+        <li><a href="contacto.html">Contacto</a></li><br>
+        <li><a href="Reglas.html">Reglas y Politicas</a></li><br>
+        <li><a href="Contenido.html">Contenido del Juego</a></li><br>
+        <li><a href="formulario.html">Formulario</a></li>
+    </ul>
+    </nav>
+<p align=center>&nbsp;</p>
+<h1 align=center><font size="+1">La siguiente información ha sido enviada como su
+    retroalimentación:</font></h1><br><br>
+<article>
+    <table border="1" align=center width="226">
+        <tr>
+          <th align="center">Formulario</th>
+          <th align="center">Valor</th>
+        </tr>
+      
+      <script language="javascript">
+      var args = location.search.substr(1).split('&');
+      for (var i = 0; i < args.length; ++i) {
+        var parts = args[i].split('=');
+        if (parts != null) {
+          var field = parts[0];
+          var value = parts[1];
+          if (value == null) {
+            value = "null"
+          }
+          else {
+            value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+          }
+      
+          document.writeln('<tr><td align="center">' + field + '</td>');
+          document.writeln('<td align="center">' + value + '</td></tr>');
+        }
+      }
+      </script>
+      
+      <noscript>
+      <tr><td>
+      <p>You need to turn on Javascript in your browser.</p>
+      
+      <p>In Microsoft Internet Explorer 4 or greater:</p>
+      <ul>
+      <li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+      <li>Click on the "Security" tab.</li>
+      <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+      and then click on "Settings...".)</li>
+      <li>Under "Active scripting" make sure "Enable" is selected.</li>
+      </ul>
+      
+      <p>In Netscape version 4 or greater:</p>
+      <ul>
+      <li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+      <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+      <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+      <li>Click the <b>OK</b> button.</li>
+      </ul>
+      
+      </td></tr>
+      </noscript>
+      
+      </table>
+</article>
+<footer>
+  <div class="marcas">
+    <img src="img/Adidas.png" alt="adidas">
+    <img src="img/samsung.png" alt="samsung">
+    <img src="img/nysl_logo.png" alt="logo">
+    <img src="img/logo-presto.png" alt="presto">    
+    <img src="img/lenovo.png" alt="lenovo">
+  </div>
+</footer>
+</body>
+</html>

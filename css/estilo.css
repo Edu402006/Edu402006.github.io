@@ -1,0 +1,99 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Comic Sans MS;
+}
+
+/*Encabezado */
+header {
+  background-color: white;
+  text-align: left;
+  font-size: 20px;
+  color: white; 
+}
+
+/*Texto que va sobre la imagen del header*/
+.contenedor__texto-encima {
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+}
+
+/*Contiene la imagen que va e el header*/
+.contenedor__img {
+  margin-bottom: -5px;
+  width: 100%;
+  height: 600px; 
+}
+
+/*Barra que lleva un titulo y el logo de la marca*/
+.nav-bar {
+  color: white;
+  background-color: black;
+  height: 35px;
+  text-align: center;
+  margin: 0; 
+}
+
+/*barra para modificar imagen*/
+.nav-bar__img {
+  position: absolute;
+  width: 100px;
+  float: right;
+  margin: -25px 400px; 
+}
+
+/*Link que direccionan a otras paginas del index*/
+.link {
+  float: left;
+  width: 20%;
+  height: 60px;
+  padding: 50px; 
+}
+
+/*modificacion link */
+.link__lista {
+  list-style-type: none; 
+}
+
+/*Seccion donde va la información de la pagina*/
+article {
+  float: left;
+  padding: 50px;
+  width: 60%;
+  background-color: white;
+  height: 1000px; 
+}
+
+/*informacion de la pagina Reglas y Politicas*/
+.reglas {
+  margin-left: 100px; 
+}
+
+/*Tabla y anuncios de la pagina contenido*/
+.reglas__tablas, th, td {
+  border: 1px solid black; 
+}
+
+footer {
+  width: 100%;
+  height: 300px; 
+}
+
+footer > .marcas {
+  width: 100%;
+  height: 80px;
+  background-color: #4A5568;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+footer > .marcas > img {
+  width: 50px; 
+}
+
+/*# sourceMappingURL=estilo.css.map */
