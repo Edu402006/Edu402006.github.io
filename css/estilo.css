@@ -63,9 +63,36 @@ header {
 article {
   float: left;
   padding: 50px;
-  width: 60%;
+  width: 65%;
   background-color: white;
-  height: 1000px; 
+  height: 900px; 
+}
+
+.form {
+  padding: 1em;
+  background: #b1afaf;
+  border: 1px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.form__datos--label {
+  grid-column: 1 / 2;
+  float: left;
+  width: 200px;
+  padding-right: 24px;
+}
+.form__datos--input {
+  margin-bottom: 1rem;
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+.form__datos--button {
+  float: right;
+  width: calc(100% - 200px);
 }
 
 /*informacion de la pagina Reglas y Politicas*/
@@ -85,7 +112,7 @@ footer {
 
 footer > .marcas {
   width: 100%;
-  height: 80px;
+  height: 60px;
   background-color: #4A5568;
   display: flex;
   justify-content: space-around;
